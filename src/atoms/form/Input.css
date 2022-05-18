@@ -1,0 +1,44 @@
+.input {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0px 0px 0px 16px;
+    height: 36px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: "Sofia Pro Regular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.input-field {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: "Sofia Pro Regular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding:12px;
+    align-items: center
+}
+.input-field input {
+    border:none;
+    width:100%;
+}
+
+.input-field:focus-within, input:focus-visible {
+    outline: none
+}
+
+.input-field i.fa {
+    color: #9E9E9E !important;
+    font-size:20px;
+}

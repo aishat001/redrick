@@ -1,0 +1,20 @@
+button {
+    background: rgb(229, 78, 85);
+    border-radius: 5px ;
+    border-style: solid;
+    border-color: rgb(229, 78, 85);
+    border-width: 0px;
+    color: rgb(255, 255, 255);
+    font-family: "Futura PT Book", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    white-space: normal;
+    padding: 0px 20px;
+    text-align: center;
+    word-break: break-word;
+    align-self: flex-end;
+    cursor: pointer;
+    height: 35px;
+}

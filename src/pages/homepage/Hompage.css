@@ -1,0 +1,47 @@
+.homepage {
+    background-color : #f8f6f3  ;
+}
+
+.message-bar {
+    background:#f8f6f3;
+    overflow-x: scroll;
+}
+
+.message-bar p {
+    width:300px;
+}
+
+
+.slide1 {
+    background: linear-gradient(133deg, rgb(0 0 0 / 0.3), rgb(0 0 0 / 0)), url("https://cdn.shopify.com/s/files/1/3028/7274/files/2022_05_17_BBQ-homepage-banner_desktop.png?v=1652788047");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.slide1 h2 {
+    width: max-content;
+}
+.slide1 button {
+    opacity: 0.75;
+}
+
+.product-reccomendation {
+    margin: 0 !important;
+    min-height: 530px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:#F8F6F3;
+}
+
+@media (max-width: 1000px) {
+    .message-bar {
+        padding-left: 200px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .slide1 {
+        width: 100vw;
+    }
+}

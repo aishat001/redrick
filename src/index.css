@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Futura PT Book,
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +10,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url(//cdn.shopify.com/s/files/1/3028/7274/t/147/assets/FuturaPT-Book.woff2?v=41194633799005619131652011793) format('woff2'),
+        url(//cdn.shopify.com/s/files/1/3028/7274/t/147/assets/FuturaPT-Book.woff?v=20559860697786708361652011793) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url(//cdn.shopify.com/s/files/1/3028/7274/t/147/assets/FuturaPT-BookObl.woff2?v=108977271918511292851652011794) format('woff2'),
+        url(//cdn.shopify.com/s/files/1/3028/7274/t/147/assets/FuturaPT-BookObl.woff?v=148025667559286937261652011794) format('woff');
+  font-weight: normal;
+  font-style: italic;
 }

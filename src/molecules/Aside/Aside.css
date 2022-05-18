@@ -1,0 +1,75 @@
+.sidebar, .sidebar-submenu {
+    position:absolute;
+    z-index:9999;
+    width:80vw;
+    height:100vh;
+    background:#efe8da;
+    top:0;
+    left:0;
+}
+.cancelIcon {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    border-bottom:1px solid #F8F6F3;
+
+}
+
+.cancelIcon svg {
+    margin-left: 3rem;
+    cursor: pointer;
+}
+aside li {
+    border-bottom:1px solid #F8F6F3;
+    padding: 1.1rem 3rem !important;
+    font-size: 1rem;
+    font-weight:400;
+}
+.login {
+    height:100px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+
+}
+.login a {
+    margin-left: 3.2rem;
+    color:black;
+    
+}
+
+.bottom-logo {
+    display:flex;
+    justify-content:center;
+    background-color:#F8F6F3;
+    height:inherit;
+}
+.bottom-logo a {
+    color:#e44f55;
+    height: 120px;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submenu-bottom-link {
+    font-size:20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.submenu-bottom-link > a {
+    color:#191919;
+    margin-left:3.2rem;
+    font-weight: 200px;
+    text-transform: uppercase;
+}
+.submenu-bottom-link > svg {
+    margin-right: 20px;
+    width:30px;
+    height:30px;
+}
+

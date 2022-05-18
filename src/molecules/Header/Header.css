@@ -1,0 +1,49 @@
+.header {
+    background-color: #e44f55 !important;
+}
+.header i.fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+}
+.headerIcons {
+    margin-left: auto;
+}
+
+.headerIcons svg {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.cartCount {
+    outline: 1px solid #e44f55;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 20px;
+    position: absolute;
+    top: 22px;
+}
+
+.cartCount>span {
+    color: #e44f55;
+    font-size: 10px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+@media (max-width: 746px) {
+    .logo img {
+        width: 110px;
+        height: 46px
+    }
+}

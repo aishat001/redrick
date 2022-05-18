@@ -1,0 +1,28 @@
+footer {
+    background-color: #EFE8DA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+h4 {
+    font-size:16px !important;
+}
+
+.Newsletter {
+    max-width: 450px;
+    margin-top: 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+@media (min-width: 991px) {
+    .Newsletter {
+        width: calc(35% - 50px);
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+}
