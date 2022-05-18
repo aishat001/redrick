@@ -82,7 +82,6 @@ the unusual usual this BBQ season!</p>
                 <Button title={"Choosing for you"} bRadius="15px" bgColor={"white"} color={"#dbdbdb"} border="1px solid #dbdbdb" />
                 <Button title={"Best sellers"} bRadius="15px" bgColor={"white"} color={"#dbdbdb"} border="1px solid #dbdbdb" />
                 <Button title={"New"} bRadius="15px" bgColor={"white"} color={"#dbdbdb"} border="1px solid #dbdbdb" />
-
           </div>
       </section>
     </Layout>
