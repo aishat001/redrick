@@ -1,4 +1,4 @@
-import {Route, Routes, useLocation, Navigate} from "react-router";
+import {Route, Routes} from "react-router";
 import './App.css';
 import AllComponents from "./pages/components";
 import Homepage from "./pages/homepage";
